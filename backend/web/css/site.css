@@ -120,6 +120,28 @@ a.desc:after {
     border: none;
 }
 
+
+/* mysite  */
+
+table{
+    border: 1px solid #222;
+    margin-top: 20px;    
+}
+
+td, th{
+    padding: 10px 15px;
+    border: 1px solid #222;
+}
+
+tr{
+    text-align: center;
+    border: 1px solid #222; 
+}
+
+h3{
+    margin-top: 60px;
+}
+
 @media(max-width:767px) {
     .nav li > form > button.logout {
         display:block;

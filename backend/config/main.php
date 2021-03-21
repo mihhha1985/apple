@@ -42,6 +42,8 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'site/fall/<id:\d+>' => 'site/fall',
+                'site/eat/<id:\d+>' => 'site/eat',
             ],
         ],
     ],
